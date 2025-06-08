@@ -1,4 +1,4 @@
-# porfolio
+# portfolio
 Portfolio principales sistemas.
 Verónica Miszel
 
@@ -13,20 +13,20 @@ Tecnologías utilizadas
 - JavaScript
 
 Captura del sitio
+https://github.com/veritomis/porfolio/blob/main/portfolio/IMG/capturaportfolio.png
 
 
 
 
+ 
 
-> Reemplazá `ruta/a/la/imagen.png` por el nombre del archivo que subas (ej. `captura.png`).
-
-## 🚀 Cómo verlo en línea
+Link
 
 Podés ver el portfolio funcionando en este enlace:  
 [https://tuusuario.github.io/tu-repositorio](https://tuusuario.github.io/tu-repositorio)
 
 > Cambiá la URL por tu link real.
 
-## 📂 Estructura del proyecto
+Estructura
 
 
