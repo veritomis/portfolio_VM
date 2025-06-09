@@ -10,6 +10,7 @@ Verónica Miszel
             />
 
 Portfolio Web - Verónica Miszel
+Link https://veritomis.github.io/portfolio_VM/#proyectos
 
 Este proyecto consiste en un sitio web de portfolio personal realizado como parte de la materia Frontend de la Tecnicatura Superior en Desarrollo de Software.
 
