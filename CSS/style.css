@@ -56,26 +56,14 @@ section {
   margin-bottom: 3rem;
 }
 
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.skills li {
-  background-color: #333;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-}
-
 footer {
   text-align: center;
-  padding: 1rem 0;
+  padding: 20px;
   background-color: #aa3396;
   color: white;
   margin-top: 2rem;
   opacity: 0.7;
+  font-size: 1rem;
 }
 
 
@@ -94,8 +82,7 @@ table {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 100%;
   overflow-x: auto;
-  display: block;
-
+  
  }
 
 table td {
@@ -115,7 +102,7 @@ section {
     text-align: center;
 }
 
-/*Lo que hace lindo el formulario*/
+/*lindo el formulario*/
 
 .login-con-bordes {
     background-color: #f8f9fa;
@@ -127,22 +114,22 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* unvisited link */
+/* sin usar el link */
 nav a:link {
   color: rgb(201, 180, 233) !important;
 }
 
-/* visited link */
+/* usado el link */
 nav a:visited {
   color: rgb(255, 249, 252) !important;
 }
 
-/* mouse over link */
+/* mouse over link que pasa por arriba */
 nav a:hover {
   color: rgb(241, 159, 200) !important;
 }
 
-/* selected link */
+/* seleccionado link */
 nav a:active {
   color: rgb(219, 221, 188) !important;
 }
@@ -254,3 +241,47 @@ nav a:active {
   text-decoration: underline;
 }
 
+/* normal pc */
+.tabla-container table {
+  width: 70%;
+  margin: auto;
+}
+
+/* tablets */
+@media (max-width: 992px) {
+  .tabla-container table {
+    width: 90%;
+  }
+}
+
+/* celulares grandes */
+@media (max-width: 768px) {
+  .tabla-container table {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .tabla-container td {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .tabla-container tr {
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+/* Celulares chicos */
+@media (max-width: 576px) {
+  .tabla-container td {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+  footer {
+    font-size: 0.9rem;
+    padding: 15px 10px;
+    line-height: 1.5;
+  }
+}
