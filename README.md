@@ -21,7 +21,7 @@ Tecnologías utilizadas
 
 - HTML5
 - CSS3
-- JavaScript (vanilla)
+- JavaScript (para que funcione Bootstrap)
 
 Funcionalidades
 
