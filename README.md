@@ -1,4 +1,3 @@
-Portfolio
 Portfolio principales sistemas.
 
 Verónica Miszel
